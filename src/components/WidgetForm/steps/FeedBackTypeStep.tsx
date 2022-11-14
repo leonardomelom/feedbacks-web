@@ -1,12 +1,11 @@
-import { feedbackTypes, FeedbackType}
- from '..'
+import { feedbackTypes, FeedbackType}from '../Index'
 import { CloseButton } from '../../CloseButton'
 
  interface FeedbackTypeStepProps {
   onFeedBackTypeChanged: (type: FeedbackType) => void
 }
 
- export default function FeedBackTypeStep({onFeedBackTypeChanged}: FeedbackTypeStepProps)  {
+ export default function FeedbackTypeStep({onFeedBackTypeChanged}: FeedbackTypeStepProps)  {
     return (
       <>
       <header>

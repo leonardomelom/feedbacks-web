@@ -4,7 +4,7 @@ import { FeedbackType,feedbackTypes} from '../Index'
 import { CloseButton } from '../../CloseButton'
 import { ScreenShotButton } from '../ScreenShotButton';
 
-  interface FeedbackContentStepProps {
+  export interface FeedbackContentStepProps {
    feedbackType: FeedbackType;
     onFedbackRestartRequested: () => void;
     onFeedbackSent: () => void;
